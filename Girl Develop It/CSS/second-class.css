@@ -1,0 +1,91 @@
+p {
+	color: orange;
+	font-size:20px;
+	font-family: sans-serif;
+}
+
+body {
+	background: light grey;
+}
+
+.green {
+	color: green;
+}
+
+a {
+	color: purple;
+}
+
+#blue {
+	color: blue;
+}
+
+t
+#thin {
+	width: 400px;
+}
+
+#huge {
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+div p {
+	color: yellow;
+	font-weight: bold;
+}
+.yellow p {
+
+	color: yellow;
+	font-weight: bold;
+	background: black;
+}
+
+
+#red {
+	color: red;
+}
+
+.success {
+	background-color: lime;
+	font-style: italic;
+	font-size: 19pxl;
+}
+
+.blog-posts {
+	width: 600px;
+	background-color: purple;
+	font-size: "Arial", sans-serif;
+}
+
+.medium {
+	width: 240px;
+	background-color: blue;
+
+}
+
+.cats p {
+   background-color: gray;
+   text-align: right;
+}
+
+.cats {
+   background-color: red;
+   text-align: center;
+}
+
+.new-info {
+	background-color: lightblue;
+}
+
+#happy-hour {
+	background-color: yellow;
+}
+
+#happy-hour li { 
+    background-color: orange;
+    }
+
+#happy-hour .specials {
+	background-color: red;
+}

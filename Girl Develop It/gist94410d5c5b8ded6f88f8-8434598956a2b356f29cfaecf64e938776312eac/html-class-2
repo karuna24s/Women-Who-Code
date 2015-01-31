@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title of the page</title>
+  </head>
+  <body>
+    <h1>First Header</h1>
+    <p>some <strong>strong text</strong></p>
+    <p class="serif">Make me have a font-family of Serif</p>
+    <p class="sans-serif">Make me have a font-family of Sans-Serif</p>
+    <p class="purple">Make me purple</p>
+    <p class="blog-content">Give me some style!</p>
+
+    <h2>2nd Header</h2>
+    <p>some <em>emphasized text</em> with a link to <a href="http://flickholdr.iwerk.org/200/300/sea">Flickholdr</a></p>
+
+    <a href="http://flickholdr.iwerk.org/"><img src="http://flickholdr.iwerk.org/200/300/sea" alt="flickholdr" title="flickholdr"/></a>
+
+    <h3>Some info for you</h3>
+    <p>I got these placeholders from <a href="http://flickholdr.iwerk.org/">here</a><p>
+
+    <p>
+      Imagine there's no Heaven <br/>
+      It's easy if you try <br/>
+      No hell below us  <br/>
+      above us only sky <br/>
+      new line with no space around it <br/>
+      <!-- notice that I used the encoded characters below, if I had simply written <br/>, the page would have though I wanted a new line -->
+      notice that I used the encoded characters below, if I had simply written '&lt;br/&gt;', the page would have though I wanted a new line <br/>
+      new lines made with &lt;br/&gt; tags
+    </p>
+    <p>new paragraph has space around it by default</p>
+
+    <!-- this is my ordered list -->
+    <h1>Favorite Places</h1>
+    <ol>
+      <li class="warning">
+        <a href="http://en.wikipedia.org/wiki/New_York_City">NYC</a>
+      </li>
+      <li class="warning" id="special">Marseille</li>
+      <li class="green">Zion National Park</li>
+      <li class="large">Adirondack Mountains</li>
+      <li>
+        <img src="http://flickholdr.iwerk.org/200/300/hawaii" title="hawaii"/>
+      </li>
+    </ol>
+
+    <!-- this is my unordered list -->
+    <h2>Practice for Classes and IDs</h2>
+    <ul>
+      <li class="warning">class: warning</li>
+      <li class="warning" id="orange">class: warning, id: orange</li>
+      <li class="green">green</li>
+      <li class="green">green <em>Item</em></li>
+      <li class="green">green <strong>Item</strong></li>
+      <li class="green" id="blue">class: green, id: blue</li>
+      <li class="green">text with <a href="http://www.google.com">link to google</a>
+      <li class="large">large</li>
+    </ul>
+
+    <!-- You can add your own classes and IDs here -->
+    <h4>Table of Contact Info</h4>
+    <table>
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Smith</td>
+        <td>john@smith.com</td>
+      </tr>
+      <tr>
+        <td>Alex</td>
+        <td>Anderson</td>
+        <td></td>
+        <td>111-111-1111</td>
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Jack</td>
+      </tr>
+    </table>
+
+    <h4  class="gallery-title">Table of Images</h4>
+    <table>
+      <tr>
+        <td id="first-table-image" class="table-image">
+          <img src="http://flickholdr.iwerk.org/200/300/sea,sun" title="sea and sun"/>
+        </td>
+        <td class="table-image">
+          <img src="http://flickholdr.iwerk.org/200/300/sea,sun"/>
+        </td>
+        <td class="table-image">
+          <img src="http://flickholdr.iwerk.org/200/300/sea,sun"/>
+        </td>
+      </tr>
+      <tr>
+        <td class="table-image">
+          <img src="http://flickholdr.iwerk.org/200/300/sea,sun" title="gdi logo"/>
+        </td>
+        <td class="table-image">
+          <img src="http://flickholdr.iwerk.org/200/300/sea,sun" title="cookie"/>
+        </td>
+        <td class="table-image">
+          <img src="http://flickholdr.iwerk.org/200/300/sea,sun"/>
+        </td>
+      </tr>
+    </table>
+
+    <h4 class="gallery-title">List of Images</h4>
+    <ul>
+      <li id="first-list-image" class="list-image">
+        <img src="http://flickholdr.iwerk.org/200/300/sea,sun" title="sea and sun"/>
+      </li>
+      <li class="list-image">
+        <img src="http://flickholdr.iwerk.org/200/300/sea,sun"/>
+      </li>
+    </ul>
+    <ul>
+      <li class="list-image">
+        <img src="http://flickholdr.iwerk.org/200/300/sea,sun" title="gdi logo"/>
+      </li>
+      <li class="list-image">
+        <img src="http://flickholdr.iwerk.org/200/300/sea,sun" title="cookie"/>
+      </li>
+    </ul>
+
+    <p id="footer">Copyright 2015</p>
+  </body>
+</html>
